@@ -124,7 +124,7 @@ and the program will exit.
 
 This project was inspired by:
 
-- YouTube: *“Encryption and Decryption in Python”*  
+- YouTube: [Encryption and Decryption in Python](https://www.youtube.com/watch?v=H8t4DJ3Tdrg)
 - Blog post: [Encryption and Decryption in Python – Nitratine](https://nitratine.net/blog/post/encryption-and-decryption-in-python/)
 
 ---
