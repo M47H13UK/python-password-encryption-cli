@@ -6,20 +6,20 @@
 A simple command-line tool written in Python that lets you **encrypt and decrypt messages using a password**.  
 It uses PBKDF2 (with SHA-256) to derive a key from your password and then encrypts the message using `Fernet` from the `cryptography` library.
 
-> ⚠️ This project is for **learning and personal use**.  
+> This project is for **learning and personal use**.  
 > For production-grade security, get a professional security review before relying on it.
 
 ---
 
 ## Features
 
-- 🔐 Password-based encryption and decryption
-- 🧂 Random 16-byte salt generated for each encryption
-- 🔑 Key derivation using PBKDF2HMAC (SHA-256, 100,000 iterations)
-- 📄 Optional output to `encrypted_file.txt` with:
+- Password-based encryption and decryption
+- Random 16-byte salt generated for each encryption
+- Key derivation using PBKDF2HMAC (SHA-256, 100,000 iterations)
+- Optional output to `encrypted_file.txt` with:
   - `Message: <encrypted_message>`
   - `Salt: <salt_in_hex>`
-- 🖥️ Interactive CLI prompts for a smooth workflow
+- Interactive CLI prompts for a smooth workflow
 
 ---
 
@@ -73,7 +73,7 @@ pip install cryptography
 
 6. Optionally choose to exit the program or continue with another operation.
 
-> 💡 To decrypt later, you must keep the **encrypted message**, the **salt**, and remember the **password**.
+> To decrypt later, you must keep the **encrypted message**, the **salt**, and remember the **password**.
 
 ---
 
