@@ -1,5 +1,4 @@
-
-# Python Password Encryption CLI
+# Python password encryption CLI
 
 ![Encryption Showcase](Encryption_Showcase.png)
 
@@ -19,7 +18,7 @@ It uses PBKDF2 (with SHA-256) to derive a key from your password and then encryp
 - Optional output to `encrypted_file.txt` with:
   - `Message: <encrypted_message>`
   - `Salt: <salt_in_hex>`
-- Interactive CLI prompts for a smooth workflow
+- Interactive CLI prompts
 
 ---
 
@@ -41,7 +40,7 @@ pip install cryptography
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/python-password-encryption-cli.git
+   git clone https://github.com/M47H13UK/python-password-encryption-cli.git
    cd python-password-encryption-cli
    ```
 
@@ -83,14 +82,14 @@ pip install cryptography
 2. Choose **Decrypt (D)**.
 3. Paste the **salt in hex** (shown during encryption or stored in `encrypted_file.txt`).
 4. Paste the **encrypted message** (the base64 string).
-5. If everything matches, you’ll see:
+5. If everything matches, you'll see:
 
    ```text
    Valid Key - Successfully decrypted
    Decrypted message: <your original text>
    ```
 
-If the password, salt, or message is wrong, you’ll get:
+If the password, salt, or message is wrong, you'll get:
 
 ```text
 Invalid Key - Unsuccessfully decrypted
